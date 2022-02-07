@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+  justify-content: center;
+}
+
+.card {
+  width: 170px;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.card_large {
+  width: 650px;
+  margin: 20px;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+h4 {
+  word-wrap: break-word;
+  margin: 0px;
+}
+
+.btn {
+  margin: 0 auto;
+  display: flex;
+  padding: 10px 25px;
+  font-size: 18px;
+  border: 3px solid rgb(223, 223, 223);
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 150px;
+}
